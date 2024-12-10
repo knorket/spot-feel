@@ -12,17 +12,15 @@ Gem::Specification.new do |spec|
   spec.description = "..."
   spec.homepage    = "https://www.connectedbits.com"
   spec.license = "MIT"
-  spec.required_ruby_version = ">= 3.1.2"
+  spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/connectedbits/feel"
 
   spec.files = Dir["{lib,doc}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
 
-  spec.required_ruby_version = ">= 3.1"
-
-  spec.add_dependency "activemodel", ">= 7.0.2.3"
-  spec.add_dependency "activesupport", ">= 7.0.2.3"
+  spec.add_dependency "activemodel", ">= 6.1.4"
+  spec.add_dependency "activesupport", ">= 6.1.4"
   spec.add_dependency "awesome_print", "~> 1.9"
   spec.add_dependency "treetop"
   spec.add_dependency "xmlhasher", "~> 1.0.7"
